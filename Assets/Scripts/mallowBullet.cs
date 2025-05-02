@@ -23,8 +23,15 @@ public class mallowBullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Bullet hit: " + collision.gameObject.name + ", Tag: " + collision.gameObject.tag);
+
         if (collision.gameObject.CompareTag("Enemy"))
-        { //pooling is working if object set to player. double check collision is set correctly for otehr gameobjects. compare ebverything to player
+        { //pooling is working if object set to player. double check collision is set correctly for otehr gameobjects. compare everything to player
+            gameObject.SetActive(false);
+            Debug.Log("set to false");
+        }
+        else if (collision.gameObject.CompareTag("Ceiling"))
+        {
             gameObject.SetActive(false);
             Debug.Log("set to false");
         }

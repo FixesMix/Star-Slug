@@ -43,5 +43,5 @@ public class Pooling : MonoBehaviour
     }
 
 
-    //multiple object pooling classes per bullet type
+    //multiple object pooling classes per bullet type?
 }

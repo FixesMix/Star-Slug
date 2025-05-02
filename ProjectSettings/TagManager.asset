@@ -10,6 +10,7 @@ TagManager:
   - Wall
   - Enemy
   - Bullet
+  - Ceiling
   layers:
   - Default
   - TransparentFX
@@ -18,10 +19,10 @@ TagManager:
   - Water
   - UI
   - Wall
-  - 
-  - 
-  - 
-  - 
+  - Player-Bullet
+  - Player
+  - Enemy-Bullet
+  - Enemy
   - 
   - 
   - 
