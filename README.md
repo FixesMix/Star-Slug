@@ -12,3 +12,7 @@ making the sky crumble.
 You must convince them to 
 store them elsewhere, or 
 take them away by force!
+
+// or (these are all subject to be changed orz)
+The sky is falling. Shoot for the stars, lest these cretins take you down with it! 
+
